@@ -1,0 +1,52 @@
+.form-container {
+  background: #ffffff10;
+  padding: 20px 30px;
+  border-radius: 15px;
+  max-width: 500px;
+  margin: 40px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  color: #fff;
+}
+
+.form-container h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.project-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.project-form input,
+.project-form textarea {
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  outline: none;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.project-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.project-form button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.project-form button:hover {
+  background-color: #0056b3;
+}
